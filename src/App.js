@@ -14,8 +14,11 @@ function App() {
           <MdElderly />
           <Logo to={"/"}>Recipe for elderly Homepage</Logo>
         </Nav>
-
         <Search />
+        <h2 style={{ textAlign: "center" }}>Generate recipes</h2>
+        <p style={{ textAlign: "center" }}>
+          Click on different icons to show different types of cuisine
+        </p>
         <Category />
         <Pages />
       </BrowserRouter>
