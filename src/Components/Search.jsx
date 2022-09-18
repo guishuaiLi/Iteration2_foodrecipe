@@ -21,6 +21,7 @@ function Search() {
           value={input}
           placeholder="Search food recipe here"
         />
+        <button type="submit">Search</button>
       </div>
     </FormStyle>
   );
