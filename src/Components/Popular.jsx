@@ -64,7 +64,7 @@ const Card = styled.div`
   position: relative;
 
 
-  ima{
+  img{
     border-radius: 2rem;
     position: absolute;
     left: 0;
