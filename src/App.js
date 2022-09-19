@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Nav>
           <MdElderly />
-          <Logo to={"/"}>Recipe for elderly Homepage</Logo>
+          <Logo to={"/"}>Healthy food page</Logo>
         </Nav>
         <Search />
         <h2 style={{ textAlign: "center" }}>Generate recipes</h2>
