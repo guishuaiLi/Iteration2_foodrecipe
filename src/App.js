@@ -13,6 +13,17 @@ function App() {
         <Nav>
           <MdElderly />
           <Logo to={"/"}>Healthy food page</Logo>
+          <RiArrowGoBackFill />
+          <Logo
+            style={{ backgroundColor: "#F0F2F5" }}
+            onClick={() => {
+              window.location.href =
+                "https://theelderlycare.ml/vitamin-mineral/";
+            }}
+            className="r-button"
+          >
+            Go back to website
+          </Logo>
         </Nav>
         <Search />
         <h2 style={{ textAlign: "center" }}>Generate recipes</h2>
